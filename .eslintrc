@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "extends": [
+    "eslint:recommended",
+    "eslint-config-prettier",
+    "plugin:jsdoc/recommended"
+  ],
+  "rules": {
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ]
+  },
+  "env": {
+    "node": true,
+    "amd": true,
+    "es6": true
+  }
+}

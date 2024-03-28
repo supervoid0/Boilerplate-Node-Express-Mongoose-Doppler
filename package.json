@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Md Nazmus Sabab",
+  "scripts": {
+    "start:local": "doppler run --no-timeout -- nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validation": "^4.1.0",
+    "http-status": "^1.5.3",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.1",
+    "mongoose-autopopulate": "^0.16.1",
+    "mongoose-lean-defaults": "^2.2.1",
+    "mongoose-lean-virtuals": "^0.9.1",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "uniqid": "^5.4.0",
+    "validator": "^13.7.0"
+  }
+}
